@@ -1,0 +1,12 @@
+._4uwj {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._4uwj span {
+    color: rgb(225, 225, 225);
+    font-size: 80px;
+    font-weight: 600;
+}

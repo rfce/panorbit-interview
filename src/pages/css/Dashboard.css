@@ -1,0 +1,324 @@
+._6ppe {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._9pzg .container {
+    position: relative;
+    display: flex;
+    margin: 40px 45px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+
+._9pzg .container .chatbox {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 240px;
+
+}
+
+._9pzg .container .chatbox .header {
+    height: 42px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 101, 200);
+    justify-content: space-between;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0px 10px 0px 18px;
+    cursor: pointer;
+}
+
+._9pzg .container .chatbox .header > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15.4px;
+}
+
+._9pzg .container .chatbox .header > div svg {
+    width: 20px;
+    height: 20px;
+    transform: translateY(2px);
+}
+
+._9pzg .container .chatbox .header > svg {
+    width: 21px;
+    height: 21px;
+}
+
+._9pzg .container .chatbox .users {
+    height: 180px;
+    background-color: white;
+    overflow-y: scroll;
+    padding-top: 5px;
+    padding-left: 14px;
+    border-left: 1px solid rgb(134, 167, 223);
+    border-right: 1px solid rgb(134, 167, 223);
+}
+
+._9pzg .container .chatbox .users .boffo-face {
+    display: flex;
+    align-items: center;
+    height: 34px;
+}
+
+._9pzg .container .chatbox .users .boffo-face span {
+    color: rgb(85, 85, 85);
+    font-size: 13.5px;
+    margin-left: 10px;
+}
+
+._9pzg .container .chatbox .users .boffo-face img {
+    width: 28px;
+    border-radius: 50%;
+}
+
+._9pzg .container .chatbox .users .hetaerae-lob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+._9pzg .container .chatbox .users .hetaerae-lob .dot {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+._9pzg .container .chatbox .users .hetaerae-lob .dot.green {
+    background-color: rgb(30, 170, 92);
+}
+
+._9pzg .container .navigation {
+    width: 310px;
+    height: 700px;
+    background: linear-gradient(180deg, rgba(59,88,200,1) 0%, rgba(96,57,200,1) 100%);
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+._9pzg .container .navigation li {
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(165, 165, 228);
+    font-weight: 500;
+    border-bottom: 1px solid rgb(114, 118, 212);
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+._9pzg .container .navigation li.active {
+    color: white;
+}
+
+._9pzg .container .navigation li:last-of-type {
+    border-color: transparent;
+}
+
+._9pzg .container .navigation .robes-tree {
+    position: absolute;
+    top: 12px;
+    right: -50px;
+}
+
+._9pzg .container .navigation .robes-tree .circle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+._9pzg .container .navigation .robes-tree .circle .square-up {
+    position: absolute;
+    top: -7px;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+._9pzg .container .navigation .robes-tree .circle .circle-up {
+    position: absolute;
+    top: -16px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(72, 76, 200);
+}
+
+._9pzg .container .navigation .robes-tree .circle .square-down {
+    position: absolute;
+    bottom: -7px;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+._9pzg .container .navigation .robes-tree .circle .circle-down {
+    position: absolute;
+    bottom: -16px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(78, 71, 200);
+}
+
+._9pzg .container .navigation .robes-tree .circle .chevron svg {
+    fill: rgb(192, 192, 192);
+    width: 20px;
+    height: 20px;
+    transform: translate(5px, 5px);
+    
+}
+
+._9pzg .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+._9pzg .main .header {
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+._9pzg .main .header span {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+}
+
+._9pzg .main .header .unguents-naps {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+._9pzg .main .header .unguents-naps img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+._9pzg .main .header .unguents-naps span {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(89, 89, 89);
+}
+
+._9pzg .header .unguents-naps {
+    position: relative;
+    cursor: pointer;
+}
+
+._9pzg .header .unguents-naps .accounts {
+    position: absolute;
+    top: 40px;
+    right: -5px;
+    width: 280px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(17, 12, 46, 0.2) 0px 48px 100px 0px;
+    box-sizing: border-box;
+}
+
+._9pzg .header .unguents-naps .accounts .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 13px;
+    gap: 6px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+._9pzg .header .unguents-naps .accounts .user span:last-of-type {
+    font-size: 15.5px;
+    color: rgb(141, 141, 141);
+}
+
+._9pzg .header .unguents-naps .accounts .user img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+._9pzg .header .unguents-naps .accounts .window::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+._9pzg .header .unguents-naps .accounts .window::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+._9pzg .header .unguents-naps .accounts .window  {
+    height: 150px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+._9pzg .header .unguents-naps .accounts .window .users > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 50px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+._9pzg .header .unguents-naps .accounts .window .users > div:last-of-type {
+    border-color: transparent;
+}
+
+._9pzg .header .unguents-naps .accounts .window .users > div span {
+    font-size: 13.7px;
+}
+
+._9pzg .header .unguents-naps .accounts .sign-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+._9pzg .header .unguents-naps .accounts .sign-out button {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: rgb(213, 81, 81);
+}

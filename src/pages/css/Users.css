@@ -1,0 +1,65 @@
+._1pbn {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/Background.png");
+    background-repeat: no-repeat;
+}
+
+._1pbn .container {
+    width: 536px;
+    height: 500px;
+    background-color: white;
+    margin-top: 110px;
+    border-radius: 28px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+}
+
+._1pbn .container .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(91, 91, 91);
+    background-color: rgb(246, 246, 246);
+}
+
+._1pbn .container .suitcase-oohs {
+    height: 402px;
+    overflow: scroll;
+}
+
+._1pbn .container .users {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+._1pbn .container .airtimes-phi {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+._1pbn .container .airtimes-phi:last-of-type {
+    border-color: transparent;
+}
+
+._1pbn .container .users span {
+    color: rgb(90, 90, 90);
+    margin-left: 12px;
+}
+
+._1pbn .container .users img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
